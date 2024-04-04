@@ -1,0 +1,245 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#navbar {
+  color: black;
+  background-color: rgb(112, 216, 216) !important;
+  width: 100% !important;
+  height: 56px !important;
+}
+.nav-item {
+  margin: 10px 10px !important;
+}
+
+.nav-link {
+  font-size: 25px !important;
+}
+.nav-link {
+  padding: 5px !important;
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 5px !important;
+  text-transform: capitalize !important;
+  font-family: sans-serif !important;
+  font-weight: 700px !important;
+}
+.nav-link:hover {
+  font-size: 25px !important;
+  padding: 5px !important;
+  background-color: rgb(0, 0, 0) !important;
+  color: white !important;
+  border-radius: 5px !important;
+}
+.form-control {
+  height: 48px;
+  border-radius: 5px;
+}
+
+#logo img {
+  width: 82px;
+  border-radius: 15px;
+}
+ #search1{
+  background-color: rgb(0, 0, 0) !important;
+  color: white !important;
+  font-size: 25px !important;
+}
+#search1:hover{
+  background-color: rgb(255, 0, 0) !important;
+  font-size: 25px !important;
+  color: rgb(0, 0, 0) !important;
+}
+.form-control:focus {
+  height: 48px;
+  border-radius: 5px;
+  border: 2px solid red;
+}
+.form-control {
+  height: 48px;
+  border-radius: 5px;
+  border: 2px solid red;
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+
+text-align: center;
+margin-top:12px;
+padding:1px ;
+
+}
+
+.container .first{
+  border: 2px solid red; 
+  padding:12px ;
+  border-radius: 5px;
+margin: 5px;
+}
+ button{
+  padding: 5px 5px;
+ width:30%;
+ text-transform: capitalize;
+ border:1px solid red;
+ background-color: rgb(255, 0, 0);
+ border-radius: 12px;
+ font-size: 20px;
+ transition: 0.3s;
+}
+button:hover{
+  padding: 5px 5px;
+ width:30%;
+ text-transform: capitalize;
+ box-shadow: 0px 0px 5px red;
+ background-color: black;
+ color: white;
+ border-radius: 12px;
+}
+h1{
+text-align: center;
+text-transform: capitalize;
+font-size:55px;
+margin-bottom: 15px;
+border-radius: 12px;
+margin-top: 25px;
+color:white;
+
+border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%   ;
+font-weight: bolder;
+}
+
+.container1 {
+  
+  width: 100%;
+  height: 100vh;
+ padding-top: 2px;
+  background-color: black;
+  color: white;
+}
+.container1 .first2{
+  display: flex;
+ padding-top: 2px;
+  background-color: black;
+  border-radius: 0% 100% 100% 0% / 47% 0% 100% 53%  ;
+ 
+}
+.container1 .first2 img {
+  width: 200%;
+  height: 40vh;
+  padding: 25px;
+}
+
+.container1 .first2 p {
+ width:80%;
+ float: right;
+ text-align: justify;
+  height: 54vh;
+  padding: 35px 19px;
+  font-size: 25px;
+}
+
+.container1 .first3 img {
+  width: 200%;
+  height: 40vh;
+  padding: 25px;
+  float: right;
+
+}
+
+.container1 .first3 p {
+  width: 80%;
+  float: left;
+text-align: justify;
+  height: 54vh;
+  padding: 35px 19px;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+.container2{
+  width: 100%;
+  height: 50vh;
+
+
+}
+
+.container5{
+  width: 100%;
+  height: 125vh;
+  padding: 55px ;
+  background-color: black;
+  border-radius: 0% 100% 100% 0% / 47% 0% 100% 53%  ;
+
+}
+.form{
+  width: 90%;
+  height: 90vh;
+  margin-left: 50px;
+  border-radius: 22px;
+
+border:2px solid red;
+padding: 10px;
+display: flex;
+}
+.content{
+  width: 100%;
+
+  padding: 25px;
+  border-radius: 25px;
+  
+}
+#exampleFormControlTextarea1{
+  height: 25vh;
+}
+::placeholder{
+font-size: 20px;
+text-transform: capitalize;
+}
+#email::placeholder{
+  font-size: 20px;
+  }
+
+
+.first img{
+  width: 100%;
+  height: 30vh;
+  border-radius: 7px;
+}
+
+
+
+
